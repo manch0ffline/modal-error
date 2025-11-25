@@ -38,8 +38,8 @@
 
 .modal {
   background-color: var(--main-color);
-  padding: 12px 12px 39px;
-  border-radius: 4px;
+  padding: 25px 25px 39px;
+  border-radius: 5px;
 
   display: flex;
   flex-direction: column;
@@ -99,14 +99,14 @@
 .modal-button {
   transition: all 0.2s ease;
   cursor: pointer;
-  width: 150px;
   background-color: #09B850;
-  color: var(--main-color);
-  padding-block: 10px;
+  color: #fff;
+  padding: 8px 16px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   border-radius: 10px;  
+  letter-spacing: 0.5px;
 }
 
 .modal-button:hover {
